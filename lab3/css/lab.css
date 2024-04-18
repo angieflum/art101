@@ -17,3 +17,8 @@
     text-size-adjust: 3opx;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
+
+  #screenshot {
+    width: 600px;
+  }
+  
