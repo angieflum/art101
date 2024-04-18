@@ -1,8 +1,15 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Vehicle Data Script
+// This script stores and displays vehicle data
+// Author: Artem and Angie
+// April 2024
 
-// Constants
+var make = 'Toyota';
+var model = 'Prius';
+var color = 'Blue';
+var year = 2010;
+var ownIt = true;
+var currentYear = new Date().getFullYear();
+var age = currentYear - year;
 
 // Functions
 
@@ -13,9 +20,14 @@ function myFunction(param1, param2) {
 }
 
 function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
+  document.writeln("Make: " + make + "<br>");
+  document.writeln("Model: " + model + "<br>");
+  document.writeln("Color: " + color + "<br>");
+  document.writeln("Year: " + year + "<br>");
+  document.writeln("Own It: " + ownIt + "<br>");
+  document.writeln("Age: " + age + "<br>");
+
 }
 
 // let's get this party started
-main();
+main()
