@@ -34,3 +34,11 @@ h1 {
   border: solid 1px #888;
   background-color: #A3C9A8;
 }
+
+#my-portrait {
+  width: 500px;
+}
+
+#screenshot {
+  width: 600px;
+}
