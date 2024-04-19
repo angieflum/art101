@@ -1,6 +1,16 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Writing Pseudocode for a game to get in the pseudocoding habit.
+// Checkers
+// Author: Angie and Artem
+// Date: 4/22/24
+
+// Print the board before each turn
+  //Print checkers into each space
+    //make one red and one black
+2. Accept user input
+3. Validate user move
+4. Evaluate possible moves
+5. Choose computer move
+6. Test of win or lose condition
 
 // Constants
 
