@@ -5,7 +5,16 @@
 
 // Print the board before each turn
   //Print checkers into each space
-    //make one red and one black
+    //Make one red and one black
+  //Print peices for each side
+    //Make one side black peices
+    //Make the other side red peices
+      //leave two rows empty in the middle
+  //Accept user imput
+  //validate user moves
+  //Evaluate possible moves
+  //Choose computer moves 
+  //Repeat untill win or lose condition
 
 // Constants
 
