@@ -6,11 +6,6 @@
 // Print the board before each turn
   //Print checkers into each space
     //make one red and one black
-2. Accept user input
-3. Validate user move
-4. Evaluate possible moves
-5. Choose computer move
-6. Test of win or lose condition
 
 // Constants
 
