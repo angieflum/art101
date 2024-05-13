@@ -1,15 +1,60 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #d67b7b;
-    background-color: #dca6a6;
-  }
-  .special {
-    background-color: lavender;
-    border: dotted 50px red;
-    color: pink;
-    font-weight: bold;
+/* Special class */
+.special {
+  background-color: lavender;
+  border: dotted 50px red;
+  color: pink;
+  font-weight: bold;
+}
+
+/* Additional styles */
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Additional styles for the special class */
+.special h2 {
+  color: purple;
+}
+
+.special p {
+  font-style: italic;
+}
+
+.special button {
+  background-color: #f44336; /* Red */
+}
+
+.special button:hover {
+  background-color: #d32f2f;
 }
