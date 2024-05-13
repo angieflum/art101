@@ -3,7 +3,7 @@
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 /* Special class */
 .special {
-  background-color: lavender;
+  background-color: rgb(180, 180, 248);
   border: dotted 50px red;
   color: pink;
   font-weight: bold;
