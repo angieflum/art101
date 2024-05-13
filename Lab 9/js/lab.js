@@ -12,7 +12,7 @@ Date: May 12 2024
 
 $(document).ready(function() {
     // add button to challenge section
-    $("#challenge").append("<button id='button-challenge'>Make Special</button>");
+    $("#challange").append("<button id='button-problems'>Make Special</button>");
 
     // add button to problems section
     $("#problems").append("<button id='button-problems'>Make Special</button>");
