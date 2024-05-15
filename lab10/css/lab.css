@@ -1,24 +1,14 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
+/* index.css */
+.text p {
+  display: inline-block;
+  max-width: 60%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: darkgray;
+  color: white;
+  font-family: sans-serif;
+  font-size: 0.8em;
+}
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #437a33;
-    background-color: #a9d887;
-  }
-  h1 {
-    text-decoration-color: #437a33;
-    text-size-adjust: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  h2 {
-    text-decoration-color: #437a33;
-    text-size-adjust: 3opx;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-
-  #screenshot {
-    width: 600px;
-  }
   
