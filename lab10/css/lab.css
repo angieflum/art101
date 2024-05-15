@@ -10,14 +10,13 @@
   font-family: sans-serif;
   font-size: 0.8em;
 }
-#content {
+#h1,h2,h3 {
   margin: 10px;
   padding: 10px;
   border: solid 1px #e4687b;
   background-color: #dab2ca;
 }
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
