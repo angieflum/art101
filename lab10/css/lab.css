@@ -13,13 +13,13 @@
 #h1,h2,h3 {
   margin: 10px;
   padding: 10px;
-  border: solid 1px #e4687b;
+  border: solid 1px #ce7684;
   background-color: #dab2ca;
 }
 
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-   border: solid 1px #e4687b;
+   border: solid 1px #c76876;
   background-color: #dab2ca;
 }
