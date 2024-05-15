@@ -13,7 +13,7 @@
 #p {
   color: antiquewhite;
 }
-#h1,h2,h3 {
+#h1,h2,h3,body {
   margin: 10px;
   padding: 10px;
   border: solid 1px #ce7684;
