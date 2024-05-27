@@ -1,7 +1,7 @@
 /* 
 lab.js - This is a simple JavaScript used to implement the FizzBuzz function as described.
 Author: Angie and Artem
-Date: 27 May, 2024
+Date: 27 May 2024
 */
 // FizzBuzz function
 function fizzBuzz() {
