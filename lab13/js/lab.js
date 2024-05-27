@@ -1,26 +1,39 @@
-/* 
-lab.js - This simple JavaScript/jQuery script gets a value from an input field and outputs a modified version.
+// lab.js
 
-Requirements: jQuery must be loaded for this script to work.
+// FizzBuzz function
+function fizzBuzz() {
+  // Initialize an empty string to collect the results
+  let oneLongString = "";
 
-Author: Angie and Artem
-Date: 17 May, 2024
-*/
+  // Loop through numbers 1 to 200
+  for (let i = 1; i <= 200; i++) {
+      let output = "";  // Initialize an empty string for each number
 
-// Sorts the characters of a string in alphabetical order.
-function sortString(inputString) {
-  // We have to convert our string to an array and back again to sort it
-  return inputString.split('').sort().join('');
+      // Check if the number is a multiple of 3, 5, or 7
+      if (i % 3 === 0) {
+          output += "Fizz";
+      }
+      if (i % 5 === 0) {
+          output += "Buzz";
+      }
+      if (i % 7 === 0) {
+          output += "Boom";
+      }
+
+      // If the number is not a multiple of 3, 5, or 7, set output to the number itself
+      if (output === "") {
+          output = i;
+      }
+
+      // Append the result to the oneLongString variable with a line break
+      oneLongString += output + "<br>";
+  }
+
+  // Output the result to the div with id="output"
+  $("#output").html(oneLongString);
 }
 
-// Click listener for button
-$("#submit").click(function() {
-  // Get value of input field
-  const userName = $("#user-name").val();
-  
-  // Now let's sort it
-  const userNameSorted = sortString(userName);
-  
-  // Append a new div to our output div
-  $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
+// Call the fizzBuzz function when the document is ready
+$(document).ready(function() {
+  fizzBuzz();
 });
